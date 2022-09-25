@@ -43,6 +43,7 @@ div {
 
   /* Phase 1 */
   /* Your code here */
+  grid-column: 1/4;
 }
 
 .divider {
