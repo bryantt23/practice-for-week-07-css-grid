@@ -61,4 +61,13 @@ div {
 
   /* Phase 2 */
   /* Your code here */
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, 50px);
+  grid-template-columns: auto;
+}
+
+.grid-container-flow div {
+  justify-content: center;
+  text-align: center;
 }
